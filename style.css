@@ -1,0 +1,200 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #F3F5FC;
+}
+
+.decodificador {
+
+    display:flex; 
+    justify-content: space-between;
+    gap: 5rem;
+    padding: 40px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+
+.mensagem-saida {
+
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+
+}
+
+.instrucao {
+
+    font-size: 16px; 
+
+}
+
+.entrada {
+
+    /* position: relative; */
+    display: flex; 
+    flex-direction: column; 
+
+}
+
+.caixa-de-texto {
+    width: 680px; 
+    height: 80%; /* Ajusta a altura automaticamente conforme o conteúdo */
+    background-color: #F3F5FC; 
+    border: none;
+    color: #0A3871; 
+    box-sizing: border-box;
+    font-size: 32px;
+    padding: 10px; /* Adiciona padding para garantir espaço ao redor do texto */
+}
+
+.caixa-de-texto::placeholder {
+    color: #0A3871; 
+    font-family: 'Inter', sans-serif;
+    font-size: 32px; /* Reduz o tamanho da fonte para ajustar ao layout */
+    text-align: left; 
+    vertical-align: top; 
+    line-height: 1.2; /* Ajusta a altura da linha para alinhar o texto ao topo */
+}
+
+.caixa-de-texto:focus {
+    outline: none; /* Remove o contorno padrão do navegador */
+    border: none; /* Remove a borda */
+    /* overflow-y: hidden; Oculta a barra de rolagem vertical */
+}
+
+.logo-alura {
+
+    width: 120px; 
+    height: 48px; 
+
+}
+
+.entrada2 {
+
+    width: 77,4%;
+    height: 86%;
+    margin-left: 200px; 
+    margin-top: 128px;  
+    /* position: absolute;
+    bottom: 0;
+    right: 0; */
+
+}
+
+.instrucao {
+
+    font-family: 'Inter', sans-serif;
+
+}
+
+.container-botao {
+    
+
+    display: flex; 
+    gap: 24px; 
+
+}
+
+.botao-criptgrafar {
+
+    border-radius: 24px; 
+    border-color: #00063F;
+    width: 328px; 
+    height: 67px; 
+    font-family: 'Inter', sans-serif; 
+    background-color: #0A3871;
+    color: white;  
+
+}
+
+.botao-descriptografar {
+
+    border-radius: 24px; 
+    border-color: #00063F;
+    width: 328px; 
+    height: 67px; 
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    background-color: #F3F5FC; 
+
+
+
+}
+
+.aviso {
+
+    display:flex; 
+    gap: 8px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.saida {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white; 
+    border-radius: 32px; 
+    width: 400px; 
+    height: auto;
+
+}
+
+.imagem-menina {
+
+    align-items: center; 
+    width: 336px; 
+    height: 304px; 
+
+}
+
+.saida2 {
+
+    /* display:flex; 
+    flex-direction: column;  */
+
+}
+
+.saida3 {
+
+    text-align: center;
+    gap: 16px;
+    /* display:flex;
+    flex-direction: column;  */
+    width: 336px; 
+    height: 122px;
+
+}
+
+#saida4 {
+
+    display:flex; 
+    flex-direction: column;
+    justify-content: space-between; 
+    display: none;
+    margin: 84%; 
+    height: auto;
+    gap: 60%;
+
+
+}
+
+#botao-copiar {
+
+    border-radius: 24px; 
+    border-color: #00063F;
+    width: 328px; 
+    height: 67px; 
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    background-color: #FFFFFF; 
+
+}
+
+#texto-saida {
+
+    font-family: 'Inter', sans-serif;
+    font-size: 24px; 
+
+}
