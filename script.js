@@ -8,6 +8,8 @@ let textoSaida = document.querySelector("#texto-saida");
 botaoCriptografar.addEventListener('click', function() {
     let text = document.querySelector("#caixa-texto").value; 
 
+    text = text.toLowerCase();
+
     text = text.replaceAll("e", "enter")
     text = text.replaceAll("i", "imes")
     text = text.replaceAll("a", "ai")
@@ -26,6 +28,8 @@ botaoCriptografar.addEventListener('click', function() {
 
 botaoDescriptografar.addEventListener('click', function() {
     let text = document.querySelector("#caixa-texto").value;
+
+    text = text.toLowerCase();
 
     text = text.replaceAll("enter", "e")
     text = text.replaceAll("imes", "i")
